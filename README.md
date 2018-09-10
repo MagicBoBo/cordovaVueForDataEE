@@ -53,7 +53,7 @@ cordovaApp
 │  │  └─router
 │  │          index.js
 ```
-在搭建好android开发环境之后，全局安装cordova
+在搭建好android开发环境之后，全局安装cordova，我的cordova版本是8.0,尽量与我一致。另外[这里](https://cordova.apache.org/#getstarted)是cordova的官方文档
 ```
 npm install -g cordova
 ```
@@ -84,4 +84,23 @@ cordova platform add browser
 cordova run browser
 ```
 
-业务代码需要写在vue-src中的src文件夹中
+业务代码需要写在vue-src中的src文件夹中,在每次需要构建的时候
+```
+在vue-src文件夹下执行
+npm run build
+```
+这样文件会被放到www文件夹中
+```
+在cordovaApp文件夹下
+执行cordova run android
+或者cordova run browser
+进行调试
+```
+
+如果需要构建
+```
+执行
+cordova build android
+app文件存放在
+/platforms/android/app/build/outputs/apk/debug/app-debug.apk 文件夹下
+```
