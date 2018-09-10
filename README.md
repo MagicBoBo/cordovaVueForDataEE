@@ -58,24 +58,24 @@ cordovaApp
 npm install -g cordova
 ```
 在项目git clone下来之后，在cordovaApp文件夹下面，新建www目录，新建platforms目录（尽量保证www目录下面有html文件哈，不然因为目录问题可能会出错）
-执行
 ```
+执行
 npm install
 ```
 来安装cordova的node包
-执行
 ```
+执行
 cd vue-src
 npm install
 ```
 来安装vue的node包
-执行
 ```
+执行
 cordova platform add android
 ```
 来添加安卓平台
-在你手机连上电脑，打开usb调试后
 ```
+手机连上电脑，打开usb调试后执行
 cordova run android 进行调试
 ```
 另外也可以添加浏览器平台进行调试，缺点是不能使用一些例如相机的插件
