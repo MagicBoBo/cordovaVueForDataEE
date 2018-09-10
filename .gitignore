@@ -6,7 +6,7 @@ yarn-debug.log*
 yarn-error.log*
 selenium-debug.log
 cordovaApp/platforms/
-cordovaApp/plugins/
+# cordovaApp/plugins/
 cordovaApp/www
 
 build.xml
