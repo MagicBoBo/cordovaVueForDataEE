@@ -1,5 +1,4 @@
-# cordovaVueForDataEE
-主要文档结构图
+# 主要文档结构图
 ```
 cordovaApp
 |
@@ -53,6 +52,7 @@ cordovaApp
 │  │  └─router
 │  │          index.js
 ```
+# 搭建环境
 在搭建好android开发环境之后，全局安装cordova，我的cordova版本是8.0,尽量与我一致。另外[这里](https://cordova.apache.org/#getstarted)是cordova的官方文档
 ```
 npm install -g cordova
@@ -71,10 +71,12 @@ npm install
 来安装vue的node包
 ```
 执行
+cd ..
 cordova platform add android
 ```
 来添加安卓平台
 ```
+# 调试
 手机连上电脑，打开usb调试后执行
 cordova run android 进行调试
 ```
@@ -96,7 +98,7 @@ npm run build
 或者cordova run browser
 进行调试
 ```
-
+# 构建
 如果需要构建
 ```
 执行
