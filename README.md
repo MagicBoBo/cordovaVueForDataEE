@@ -75,8 +75,8 @@ cd ..
 cordova platform add android
 ```
 来添加安卓平台
-```
 # 调试
+```
 手机连上电脑，打开usb调试后执行
 cordova run android 进行调试
 ```
