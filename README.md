@@ -1,7 +1,10 @@
 # cordovaVueForDataEE
 主要文档结构图
+```
 cordovaApp
+|
 │  config.xml //cordova配置文件
+|
 │  package.json // cordova的npm包信息文件
 │  
 ├─node_modules //cordova的npm包
@@ -49,7 +52,7 @@ cordovaApp
 │  │  │      
 │  │  └─router
 │  │          index.js
-
+```
 在搭建好android开发环境之后，全局安装cordova
 ```
 npm install -g cordova
